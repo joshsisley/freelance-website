@@ -725,7 +725,7 @@ h2 a:hover {
     color: #fff;
     text-decoration: none;
     padding: 18px 26px;
-    border-radius: 6px;
+    border-radius: 4px;
     margin-right: 10px;
     display: inline-block;
 }
@@ -750,6 +750,12 @@ a.btn:hover {
 
 .btn.btn-freelance:hover {
     box-shadow: 300px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.btn.btn-freelance i {
+    padding-top: 0px;
+    margin-left: 20px;
+    font-weight: 400;
 }
 
 .btn.btn-get-started {
