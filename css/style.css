@@ -1047,7 +1047,7 @@ body {
 }
 
 .contact-form {
-    margin-top: 4% !important;
+    margin-top: 7% !important;
     display: block;
     margin: 0 auto;
     width: 50%;
@@ -1237,6 +1237,9 @@ body {
 @media screen and (max-width:800px) {
     .nav-fixed {
         position: relative!important;
+    }
+    .contact-form {
+        width: 75%;
     }
 }
 
