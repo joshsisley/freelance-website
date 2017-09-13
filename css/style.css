@@ -920,6 +920,7 @@ textarea {
     color: #818181;
     -webkit-transition: .2s;
     transition: .2s;
+    font-size: 1.4rem;
 }
 
 .external-icon {
