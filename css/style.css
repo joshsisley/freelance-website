@@ -1394,11 +1394,31 @@ body {
     p {
         padding-top: 0;
     }
+    .brand {
+        text-align: center;
+    }
+    #logo {
+        display:block;
+        float: none;
+        margin: 0;
+    }
+    .buffer-top {
+        margin-top: -30px;
+    }
+    .buffer-top h1 {
+        display: none;
+    }
+    #header .info {
+        display:block;
+        float: none;
+        margin-top: 10px;
+    }
     #header,
     #nav {
         text-align: center;
     }
     #nav {
+        display:none;
         width: 100%
     }
     #nav .nav-default li a {
